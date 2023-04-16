@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply w-3/12 bg-sky-300 border-2 rounded-md py-5;
+  }
+
+  .btn.primary {
+    @apply bg-red-400 text-white;
+  }
+}
